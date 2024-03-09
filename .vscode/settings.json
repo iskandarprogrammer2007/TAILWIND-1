@@ -1,0 +1,15 @@
+{
+  "css.validate": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.experimental.classRegex": [],
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "plaintext": "html",
+    "javascript": "javascript",
+    "css": "css"
+  },
+
+}

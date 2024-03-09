@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TAILWIND | amaliyot</title>
+    <style>
+      a {
+        color: inherit;
+      }
+    </style>
+    <link rel="stylesheet" href="globals.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="bg-[#4A99D3]">
+      <header class="absolute inset-x-0 top-0 z-50">
+        <nav
+          class="flex items-center justify-between py-[30px]  container mx-auto"
+          aria-label="Global"
+        >
+          <div class="flex lg:flex-1">
+            <a href="#" class="-m-1.5 p-1.5 text-[35px] text-blue-500">
+              LOGO
+            </a>
+          </div>
+          <div class="flex lg:hidden">
+            <button
+              type="button"
+              class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="hidden lg:flex lg:gap-x-12">
+            <a
+              href="#"
+              class="text-sm font-semibold leading-6 text-gray-900 hover:text-blue-500"
+              >Product</a
+            >
+            <a
+              href="#"
+              class="text-sm font-semibold leading-6 text-gray-900 hover:text-blue-500"
+              >Features</a
+            >
+            <a
+              href="#"
+              class="text-sm font-semibold leading-6 text-gray-900 hover:text-blue-500"
+              >Marketplace</a
+            >
+          </div>
+        </nav>
+      </header>
+    </div>
+    <main>
+      <section
+        class="hero flex justify-between container mx-auto pt-[120px] pb-[100px] max-lg:flex-wrap max-lg:flex-col max-lg:gap-[50px]"
+      >
+        <div class="w-[45%] flex-col gap-[50px] max-lg:w-[80%] max-sm:w-[100%]">
+          <h1 class="text-[45px]">New E-commerce App best for You</h1>
+          <p class="text-gray-500 py-[50px]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet sed
+            vulputate vitae velit dictum cursus amet. Turpis donec ut velit
+            quis. Cursus commodo, eget urna, sapien amet.
+          </p>
+          <div class="hero__btns flex justify-between flex-wrap">
+            <button>
+              <img src="images/playmarket.svg" alt="" />
+            </button>
+            <button class="pt-[30px]">
+              <img src="images/playmarket.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="w-[30%] max-lg:w-[80%] max-sm:w-[100%]">
+          <img src="images/hero__phones.svg" alt="" />
+        </div>
+      </section>
+      <section class="customers flex-col container mx-auto gap-y-12">
+        <h1 class="text-[30px] pt-[20px] pb-[20px] w-[80%] max-sm:w-[100%]">
+          What we do to help our customers in digital era.
+        </h1>
+        <div class="cards flex flex-wrap justify-between">
+          <div
+            class="card px-[20px] mb-[20px] flex-col gap-[20px] justify-between p-[20px] shadow-lg w-[31%] max-lg:w-[80%] max-sm:w-[100%]"
+          >
+            <img
+              class="text-center pt-[20px] pb-[20px]"
+              src="images/card.svg"
+              alt=""
+            />
+            <h3>Receive</h3>
+            <p class="pt-[20px] pb-[20px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a class="pb-[20px]" href="#"
+              ><img src="images/learnmore.svg" alt=""
+            /></a>
+          </div>
+          <div
+            class="card px-[20px] mb-[20px] flex-col gap-[20px] justify-between p-[20px] shadow-lg w-[31%] max-lg:w-[80%] max-sm:w-[100%]"
+          >
+            <img
+              class="text-center pt-[20px] pb-[20px]"
+              src="images/card.svg"
+              alt=""
+            />
+            <h3>Receive</h3>
+            <p class="pt-[20px] pb-[20px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a class="pb-[20px]" href="#"
+              ><img src="images/learnmore.svg" alt=""
+            /></a>
+          </div>
+          <div
+            class="card px-[20px] mb-[20px] flex-col gap-[20px] justify-between p-[20px] shadow-lg w-[31%] max-lg:w-[80%] max-sm:w-[100%]"
+          >
+            <img
+              class="text-center pt-[20px] pb-[20px]"
+              src="images/card.svg"
+              alt=""
+            />
+            <h3>Receive</h3>
+            <p class="pt-[20px] pb-[20px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a class="pb-[20px]" href="#"
+              ><img src="images/learnmore.svg" alt=""
+            /></a>
+          </div>
+          <div
+            class="card px-[20px] mb-[20px] flex-col gap-[20px] justify-between p-[20px] shadow-lg w-[31%] max-lg:w-[80%] max-sm:w-[100%]"
+          >
+            <img
+              class="text-center pt-[20px] pb-[20px]"
+              src="images/card.svg"
+              alt=""
+            />
+            <h3>Receive</h3>
+            <p class="pt-[20px] pb-[20px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a class="pb-[20px]" href="#"
+              ><img src="images/learnmore.svg" alt=""
+            /></a>
+          </div>
+          <div
+            class="card px-[20px] mb-[20px] flex-col gap-[20px] justify-between p-[20px] shadow-lg w-[31%] max-lg:w-[80%] max-sm:w-[100%]"
+          >
+            <img
+              class="text-center pt-[20px] pb-[20px]"
+              src="images/card.svg"
+              alt=""
+            />
+            <h3>Receive</h3>
+            <p class="pt-[20px] pb-[20px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a class="pb-[20px]" href="#"
+              ><img src="images/learnmore.svg" alt=""
+            /></a>
+          </div>
+          <div
+            class="card px-[20px] mb-[20px] flex-col gap-[20px] justify-between p-[20px] shadow-lg w-[31%] max-lg:w-[80%] max-sm:w-[100%]"
+          >
+            <img
+              class="text-center pt-[20px] pb-[20px]"
+              src="images/card.svg"
+              alt=""
+            />
+            <h3>Receive</h3>
+            <p class="pt-[20px] pb-[20px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a class="pb-[20px]" href="#"
+              ><img src="images/learnmore.svg" alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
+      <section
+        class="flex-col items-center pt-[80px] pb-[80px] bg-blue-100 container mx-auto"
+      >
+        <h1 class="text-blue-500 text-center pb-[50px]">How it works</h1>
+        <div class="flex justify-between flex-wrap">
+          <div
+            class="flex-col aligin-center text-center w-[30%] max-sm:w-[80%]"
+          >
+            <img class="text-center" src="images/works.svg" alt="" />
+            <h3>Create an account</h3>
+            <p>Lorem ipsum dolor sit amet, consecteteu.</p>
+          </div>
+          <div
+            class="flex-col aligin-center text-center w-[30%] max-sm:w-[80%] max-sm:py-[50px]"
+          >
+            <img class="text-center" src="images/works.svg" alt="" />
+            <h3>Create an account</h3>
+            <p>Lorem ipsum dolor sit amet, consecteteu.</p>
+          </div>
+          <div
+            class="flex-col aligin-center text-center w-[30%] max-sm:w-[80%]"
+          >
+            <img class="text-center" src="images/works.svg" alt="" />
+            <h3>Create an account</h3>
+            <p>Lorem ipsum dolor sit amet, consecteteu.</p>
+          </div>
+        </div>
+      </section>
+      <section class="flex-col text-center container mx-auto py-[100px]">
+        <h1>What our client say</h1>
+        <div class="flex justify-between flex-wrap items-center py-[50px]">
+          <div class="w-[45%] max-lg:w-[100%]">
+            <img class="w-[100%]" src="images/client.svg" alt="" />
+          </div>
+          <div class="w-[45%] flex-col max-lg:w-[100%] max-lg:pt-[50px]">
+            <img src="images/svg.svg" alt="" />
+            <p class="text-gray-500 py-[50px]">
+              Amet in elementum nulla scelerisque dui, egestas at. Elit
+              consectetur turpis elementum amet vitae et etiam nec. Varius
+              volutpat hac adipiscing tincidunt pretium.
+            </p>
+            <h3>Angel Paulina</h3>
+          </div>
+        </div>
+      </section>
+      <section
+        class="hero flex justify-between container mx-auto pt-[120px] pb-[100px] max-lg:flex-wrap max-lg:flex-col max-lg:gap-[50px]"
+      >
+        <div
+          class="w-[45%] flex-col gap-[50px] max-lg:w-[80%] max-sm:w-[100%] order-last"
+        >
+          <h1 class="text-[45px]">New E-commerce App best for You</h1>
+          <p class="text-gray-500 py-[50px]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet sed
+            vulputate vitae velit dictum cursus amet. Turpis donec ut velit
+            quis. Cursus commodo, eget urna, sapien amet.
+          </p>
+          <div class="hero__btns flex justify-between flex-wrap">
+            <button>
+              <img src="images/playmarket.svg" alt="" />
+            </button>
+            <button class="pt-[30px]">
+              <img src="images/playmarket.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="w-[30%] max-lg:w-[80%] max-sm:w-[100%] order-first">
+          <img src="images/hero__phones.svg" alt="" />
+        </div>
+      </section>
+    </main>
+    <footer
+      class="container mx-auto bg-blue-400 flex-col pt-[60px]  px-[20px]"
+    >
+    <div class="footer__top flex justify-between pb-[60px]  max-lg:flex-wrap">
+      <div class="logo text-white text-[35px] w-[20%] max-sm:w-[100%] max-lg:w-[80%]">LOGO</div>
+      <ul class="flex-col w-[20%]max-sm:w-[100%] max-lg:w-[80%] pt-[50px]">
+        <h3 class="text-white">Quick Links</h3>
+
+        <li  class="text-white pt-[20px]"><a href="#">Sign UP</a></li>
+
+        <li class="text-white py-[10px]"><a href="#">FAQ US</a></li>
+        <li class="text-white py-[5px]"><a href="#">ABOUT US</a></li>
+      </ul>
+      <ul class="flex-col w-[20%]max-sm:w-[100%] max-lg:w-[80%] pt-[50px]">
+        <h3 class="text-white">Quick Links</h3>
+        <li class="text-white pt-[20px]"><a href="#">LEGAL</a></li>
+        <li class="text-white py-[10px]"><a href="#">PRIVACY POLICY</a></li>
+        <li class="text-white py-[5px]"><a href="#">USERS</a></li>
+      </ul>
+      <ul class="flex-col w-[20%]max-sm:w-[100%] max-lg:w-[80%] pt-[50px]">
+        <h3 class="text-white">Quick Links</h3>
+        <li class="text-white pt-[20px]"><a href="#">SEND</a></li>
+        <li class="text-white py-[10px]"><a href="#">RECEIVE</a></li>
+        <li class="text-white py-[5px]"><a href="#">BUY</a></li>
+      </ul>
+      <p class="text-white max-sm:w-[100%] max-lg:w-[80%] pt-[50px]">
+        Subscribe to our newsletter and be the first to know about our updates
+      </p>
+    </div>
+    <hr>
+    <div class="footer__bottom flex justify-between py-[20px] border-t-solid flex-wrap">
+      <p class="text-white max-sm:w-[100%] max-lg:w-[80%] max-lg:pt-[50px]">Copyright © 2020. All rights reserved.</p>
+      <a class="max-sm:w-[100%] max-lg:w-[80%] max-lg:pt-[50px]" href="#">
+        <img class="w-100%" src="images/smm.svg" alt="">
+      </a>
+    </div>
+    </footer>
+  </body>
+</html>
